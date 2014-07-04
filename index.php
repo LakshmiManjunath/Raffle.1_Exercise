@@ -6,7 +6,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Raffle_Array_Version1</title>
+	<title>Raffle_1</title>
 	
 	<style>
 			body{text-align:center;border:1px solid grey;margin-left:400px;margin-right:400px;}
@@ -17,9 +17,9 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 	</style> 
 </head>
 <body>
-	<h1>RAFFEL</h1>
+	<h1>RAFFEL.1</h1>
 	<div>
-		<?php require 'Raffle_V1_logic.php';?>
+		<?php require 'Raffle.1_logic.php';?>
 		<p><a href="index.php">Play Again</a></p>
 	</div>
 </body>
